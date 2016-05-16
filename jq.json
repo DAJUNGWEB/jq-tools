@@ -1,0 +1,28 @@
+{
+    "name": "tools",
+    "version": "0.1.0",
+    "description": "experimental jq tools",
+    "homepage": "https://github.com/ekho/jq-tools",
+    "bugs": "https://github.com/ekho/jq-tools/issues",
+    "author": {
+        "name": "Boris Gorbylev",
+        "url": "http://ekho.name"
+    },
+    "main": "./jq/main.jq",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ekho/jq-tools.git"
+    },
+    "dependencies": {},
+    "engines": {
+        "jq": "^1.5.0",
+        "jqnpm": "^1.0.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "keywords": [
+        "jq-package"
+    ]
+}
