@@ -9,7 +9,7 @@ experimental jq tools
 This is a package for the command-line JSON processor [`jq`](https://stedolan.github.io/jq/). Install the package in your jq project/package directory with [`jqnpm`](https://github.com/joelpurra/jqnpm):
 
 ```bash
-jqnpm install joelpurra/jq-tools
+jqnpm install ekho/jq-tools
 ```
 
 
@@ -18,7 +18,7 @@ jqnpm install joelpurra/jq-tools
 
 
 ```jq
-import "joelpurra/jq-tools" as Tools;
+import "ekho/jq-tools" as Tools;
 
 # Tools::myFirstFunction
 "World" | Tools::myFirstFunction		# "Hello World!"
